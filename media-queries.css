@@ -1,0 +1,235 @@
+
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        top: 0;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+
+    .navbar-toggle {
+     display: none;
+ }
+
+ .nav-links:hover {
+    color: #7e57c2;
+}
+
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+    .app {
+      width: 100%;
+      height: auto;
+  }
+.app-intro {
+    width: 90%;
+}
+  .app-intro p{
+      padding-top: 20px;
+      font-weight: 400;
+      font-size: 0.8rem;
+      width: 70%;
+  }
+
+  .app-cards {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9rem;
+  }
+
+  .cards-all {
+      width: 100%;
+      height: 150px;
+      margin-top: 15px;
+  }
+
+  .cards-all h4 {
+   font-size: 1rem;
+}
+
+.cards-all p {
+   font-size: 0.8rem;
+}
+
+.card-4 {
+    margin-bottom: 30px;
+}
+
+.creator, .help {
+    margin: 250px auto 0 auto;
+    height: 42vh;
+
+}
+
+.help-inner, .creator-inner {
+    width: 70%;
+}
+
+.help-inner p{
+    font-size: 0.9rem;
+}
+}
+
+
+@media screen and (max-width: 849px) {
+    .adv {
+      margin: 40px auto;
+      width: 80%;
+  }
+
+  .section-content {
+      margin-top: 0.7em;
+  }
+
+  .layers, .wand, .image, .user {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .adv-text h3 {
+      margin-top: 1em;
+      font-size: 0.9rem;
+  }
+
+  .adv-text p {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+      margin-right: 20px;
+  }
+
+  .content {
+      width: 95%;
+      font-size: 0.8rem;
+
+  }
+
+  .content h3 {
+      font-size: 0.9rem;
+  }
+
+  .email-link {
+    margin: 30px auto;
+    font-size: 2rem;
+}
+
+.app {
+  width: 100%;
+  height: auto;
+}
+
+.app-intro p{
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  width: 70%;
+}
+
+.app-cards {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.cards-all {
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.cards-all h4 {
+   font-size: 1rem;
+}
+
+.cards-all p {
+   font-size: 0.8rem;
+}
+
+.card-4 {
+    margin-bottom: 30px;
+}
+
+.creator, .help {
+    margin: 250px auto 0 auto;
+    height: 42vh;
+
+}
+
+.help-inner, .creator-inner {
+    width: 85%;
+}
+
+.help-inner p{
+    font-size: 0.8rem;
+}
+
+#about-cards {
+  width: 95%;
+  font-size: 0.8rem;
+}
+
+
+}
+
+@media screen and (max-width: 1065px) {
+  .adv {
+      margin: 40px auto;
+      width: 80%;
+  }
+
+  .section-content {
+      margin-top: 0.7em;
+  }
+
+  .layers, .wand, .image, .user {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .adv-text h3 {
+      margin-top: 1em;
+      font-size: 0.9rem;
+  }
+
+  .adv-text p {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+      margin-right: 20px;
+  }
+
+  .content {
+      width: 95%;
+      font-size: 0.8rem;
+
+  }
+
+  .content h3 {
+      font-size: 0.9rem;
+  }
+
+}
+@media screen and (max-width: 1065px) {
+
+
+}
